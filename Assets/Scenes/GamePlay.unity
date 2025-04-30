@@ -295,11 +295,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!4 &116432907 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1670256625, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-  m_PrefabInstance: {fileID: 1847706181}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &161078027 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3482681776864735607, guid: f7fd831bd96575442a670e2717af2390, type: 3}
@@ -1047,11 +1042,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!4 &718656779 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 202364688, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-  m_PrefabInstance: {fileID: 1847706181}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &789646664
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2039,9 +2029,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1654225130}
   - component: {fileID: 1654225131}
-  - component: {fileID: 1654225132}
   m_Layer: 0
-  m_Name: GameManager
+  m_Name: Balls Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2081,24 +2070,6 @@ MonoBehaviour:
   - {fileID: 1575468012909737012, guid: 88e2eddbdaf22e141bbd7705e9996466, type: 3}
   maxBalls: 10
   range: 0.3
---- !u!114 &1654225132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1654225129}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6de6c5904cdd9674f846fbef4b1d3e1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  leftController: {fileID: 718656779}
-  rightController: {fileID: 116432907}
-  interactableLayer:
-    serializedVersion: 2
-    m_Bits: 1
-  rayDistance: 5
 --- !u!1001 &1847706181
 PrefabInstance:
   m_ObjectHideFlags: 0
